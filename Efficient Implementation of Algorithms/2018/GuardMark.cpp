@@ -79,14 +79,11 @@ bool cmp(long long a, long long b){
 int main(){
 	
 
-    long long summary = 0;
-
-	scanf("%d %lld", &N, &H);
+    scanf("%d %lld", &N, &H);
 
 	for(int i = 0; i < N; i++){
 		scanf("%lld %lld %lld", &heights[i], &weights[i], &strengths[i]);
         indicies[i] = i;
-        summary += heights[i];
     }
 
     sort(indicies, indicies + N, cmp);
