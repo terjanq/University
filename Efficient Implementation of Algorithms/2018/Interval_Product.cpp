@@ -116,7 +116,6 @@ using namespace std;
 int main(){
 
 	int n, k;
-	int T = 4;
 	while(scanf("%d %d", &n, &k) != EOF){
 		clear_tree(n);
 		int temp1, temp2;
